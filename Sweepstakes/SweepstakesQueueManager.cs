@@ -6,16 +6,12 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    class SweepstakesQueueManager
+    class SweepstakesQueueManager : ISweepstakesManager
     {
         //Member Variables
+        private Queue<Sweepstakes> queue = new Queue<Sweepstakes>();
 
-
-        //Constructor
-        public SweepstakesQueueManager()
-        {
-
-        }
+       
 
         //Member Methods
 
