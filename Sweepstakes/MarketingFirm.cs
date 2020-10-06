@@ -9,7 +9,7 @@ namespace Sweepstakes
     class MarketingFirm
     {
         //Member Variables
-        private ISweepstakesManager manager;
+        private ISweepstakesManagermanager;
 
         //Constructor
         public MarketingFirm(ISweepstakesManager manager)

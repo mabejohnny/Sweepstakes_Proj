@@ -28,12 +28,15 @@ namespace Sweepstakes
 
         public Contestant PickWinner()
         {
-            contestants.
+            contestant
 
         }
 
         public void PrintContestantInfo(Contestant contestant)
         {
+            Console.WriteLine(contestant.firstName + contestant.lastName);
+            Console.WriteLine(contestant.emailAddress);
+            Console.WriteLine(contestant.registrationNumber);
 
         }
     }

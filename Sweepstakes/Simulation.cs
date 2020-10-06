@@ -9,7 +9,7 @@ namespace Sweepstakes
     class Simulation
     {
         //Member Variables
-
+        MarketingFirm marketingFirm = new MarketingFirm(); 
 
         //Constructor
         public Simulation()
