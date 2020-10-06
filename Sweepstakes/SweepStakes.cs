@@ -12,6 +12,7 @@ namespace Sweepstakes
         private Dictionary<int, Contestant> contestants;
         private string name;
         public string Name;
+        
 
         //Constructor
         public Sweepstakes(string name)
@@ -28,7 +29,7 @@ namespace Sweepstakes
 
         public Contestant PickWinner()
         {
-            contestant
+            
 
         }
 
