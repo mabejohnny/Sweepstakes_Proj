@@ -9,7 +9,7 @@ namespace Sweepstakes
     class MarketingFirm
     {
         //Member Variables
-
+        public string ISweepstakesManager_manager;
 
         //Constructor
         public MarketingFirm()
@@ -19,5 +19,9 @@ namespace Sweepstakes
 
 
         //Member Methods
+        public void CreateSweepStakes()
+        {
+
+        }
     }
 }

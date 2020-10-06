@@ -18,5 +18,10 @@ namespace Sweepstakes
         }
 
         //Member Methods
+
+        public void InsertSweepstakes (Sweepstakes sweepstakes)
+        {
+
+        }
     }
 }

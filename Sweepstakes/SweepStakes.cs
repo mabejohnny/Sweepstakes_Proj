@@ -9,14 +9,24 @@ namespace Sweepstakes
     class SweepStakes
     {
         //Member Variables
-
+        private string name;
+        public string Name;
 
         //Constructor
-        public SweepStakes()
+        public SweepStakes(string name)
         {
 
         }
 
         //Member Methods
+        public void RegisterContestant(Contestant contestant)
+        {
+
+        }
+
+        public void PrintContestantInfo(Contestant contestant)
+        {
+
+        }
     }
 }
