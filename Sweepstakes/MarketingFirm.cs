@@ -12,7 +12,7 @@ namespace Sweepstakes
         private ISweepstakesManager manager;
 
         //Constructor
-        public MarketingFirm(ISweepstakesManager manager)
+        public MarketingFirm(ISweepstakesManager manager) // This is depending on any manager type (would need multiple constructors if dependency injection is not 
         {
             this.manager = manager;
         }
