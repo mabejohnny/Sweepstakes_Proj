@@ -23,7 +23,5 @@ namespace Sweepstakes
             EmailAddress = UserInterface.GetUserInputForEmail();
             RegistrationNumber = UserInterface.GetUserInputForRegistrationNumber();
         }
-
-        //Member Methods
     }
 }

@@ -37,6 +37,11 @@ namespace Sweepstakes
             return regNumber;
        }
 
+        public static Sweepstakes NewSweepstakes(string name)
+        {
+            return new Sweepstakes(name);
+        }
+
         public static string GetManangerInput()
         {
             Console.WriteLine("Would you like to work with Stack or Queue Manager?");

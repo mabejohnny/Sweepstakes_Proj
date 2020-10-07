@@ -27,12 +27,10 @@ namespace Sweepstakes
             if(managerChoice == "Stack")
             {
                 manager = new SweepstakesStackManager(); 
-
             }
             else if(managerChoice == "Queue")
             {
                 manager = new SweepstakesQueueManager();
-
             }
             marketingFirm = new MarketingFirm(manager); 
 

@@ -10,8 +10,12 @@ namespace Sweepstakes
     class SweepstakesStackManager : ISweepstakesManager
     {
         //Member Variables
-        private Stack<Sweepstakes> stack = new Stack<Sweepstakes>();
+        Stack<Sweepstakes> stack;
 
+        public SweepstakesStackManager()
+        {
+            stack = new Stack<Sweepstakes>();
+        }
         //Member Methods
 
         public void InsertSweepstakes(Sweepstakes sweepstakes)
@@ -21,7 +25,7 @@ namespace Sweepstakes
 
         public Sweepstakes GetSweepstakes()
         {
-            return stack.Pop(); // is this doing it?
+            return stack.Pop(); 
         }
     }
 }
