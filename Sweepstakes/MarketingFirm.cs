@@ -29,6 +29,7 @@ namespace Sweepstakes
         //Member Methods
         public void CreateSweepStakes(string name)
         {
+            
             manager.InsertSweepstakes(UserInterface.NewSweepstakes(name));
 
         }

@@ -19,14 +19,15 @@ namespace Sweepstakes
         //Constructor
         public Sweepstakes(string name)
         {
+            contestants = new Dictionary<int, Contestant>();
             this.Name = name; 
         }
 
         //Member Methods
         public void RegisterContestant(Contestant contestant) 
         {
-            Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
-            contestants.Add(1, contestant);  //How do I set key equal to registrationNumber? 
+
+            contestants.Add(contestant.RegistrationNumber, contestant); 
         }
 
         public Contestant PickWinner()
