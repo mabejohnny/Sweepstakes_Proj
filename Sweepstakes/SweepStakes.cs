@@ -26,8 +26,8 @@ namespace Sweepstakes
         //Member Methods
         public void RegisterContestant(Contestant contestant) 
         {
-            
-           
+            Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
+            contestants.Add(1, contestant);  //How do I set key equal to registrationNumber? 
         }
 
         public Contestant PickWinner()

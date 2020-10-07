@@ -8,7 +8,6 @@ namespace Sweepstakes
 {
     static class UserInterface
     {
-        public static Contestant contestant = new Contestant();
         public static int regNumber = 0;
 
         //Member Methods
@@ -32,9 +31,9 @@ namespace Sweepstakes
 
        public static int GetUserInputForRegistrationNumber()
        {
-            regNumber = + 1; 
+            regNumber = + 1;
+            //set regNumber equal to dictionary key
             Console.WriteLine("Your registration number is:" + regNumber);
-            
             return regNumber;
        }
     }
