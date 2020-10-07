@@ -9,15 +9,19 @@ namespace Sweepstakes
     class SweepstakesQueueManager : ISweepstakesManager
     {
         //Member Variables
+
         private Queue<Sweepstakes> queue = new Queue<Sweepstakes>();
 
-       
 
         //Member Methods
-
         public void InsertSweepstakes (Sweepstakes sweepstakes)
         {
+            queue.Enqueue(sweepstakes);
+        }
 
+        public Sweepstakes GetSweepstakes()
+        {
+           return queue.Dequeue(); // is this doing it? 
         }
     }
 }

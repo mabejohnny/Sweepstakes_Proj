@@ -20,7 +20,6 @@ namespace Sweepstakes
         public Sweepstakes(string name)
         {
             this.Name = name; 
-
         }
 
         //Member Methods

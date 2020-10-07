@@ -7,12 +7,10 @@ using System.Threading.Tasks;
 
 namespace Sweepstakes
 {
-    class SweepStakesStackManager : ISweepstakesManager
+    class SweepstakesStackManager : ISweepstakesManager
     {
         //Member Variables
         private Stack<Sweepstakes> stack = new Stack<Sweepstakes>();
-
-      
 
         //Member Methods
 
@@ -23,7 +21,7 @@ namespace Sweepstakes
 
         public Sweepstakes GetSweepstakes()
         {
-            return stack.Pop();
+            return stack.Pop(); // is this doing it?
         }
     }
 }

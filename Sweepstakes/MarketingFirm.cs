@@ -14,13 +14,14 @@ namespace Sweepstakes
         //Constructor
         public MarketingFirm(ISweepstakesManager manager)
         {
-            
+            this.manager = manager;
         }
 
 
         //Member Methods
         public void CreateSweepStakes()
         {
+            Sweepstakes newSweep = new Sweepstakes();
 
         }
     }

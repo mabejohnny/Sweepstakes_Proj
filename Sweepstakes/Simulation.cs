@@ -20,6 +20,7 @@ namespace Sweepstakes
         //Member Methods
         public void CreateMarketingFirmWithManager()
         {
+            UserInterface.GetManangerInput();
 
         }
     }
