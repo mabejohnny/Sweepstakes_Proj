@@ -34,6 +34,7 @@ namespace Sweepstakes
        {
             regNumber = + 1; 
             Console.WriteLine("Your registration number is:" + regNumber);
+            
             return regNumber;
        }
     }

@@ -9,15 +9,18 @@ namespace Sweepstakes
     class Contestant
     {
         //Member Variables
-        public string firstName {get; set;}
-        public string lastName {get; set;}
-        public string emailAddress {get; set;}
-        public int registrationNumber {get; set;}
+        public string FirstName;
+        public string LastName;
+        public string EmailAddress;
+        public int RegistrationNumber;
 
         //Constructor
-        public Contestant()
+        public Contestant() 
         {
-                
+            FirstName = UserInterface.GetUserInputForFirstName();
+            LastName = UserInterface.GetUserInputForLastName();
+            EmailAddress = UserInterface.GetUserInputForEmail();
+            RegistrationNumber = UserInterface.GetUserInputForRegistrationNumber();
         }
 
         //Member Methods
